@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: bold;
+  font-size: 16px;
+
+  color: black;
+  background-color: #FFFFFF;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.hero_section {
+  background:url(./img/hero_bg.png) no-repeat center center / cover;
+}
+
+.price_section {
+  background:url(./img/price_bg.jpg) no-repeat center center / cover;
+}
+
+.bottle_section {
+  background:url(./img/bottle_bg.jpg) no-repeat center center / cover;
+}
+
+.bottom_hero {
+  background:url(/img/bottom_hero_bg.jpg) no-repeat right 110% center / auto 90%;
+  /* #edca3e  */
+}
+
+.bg_blur:after {
+  content: "";
+  position: absolute; 
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffc902b0;
+  z-index: 0;
+}
+
+.bg_blur *{
+  position: relative;
+  z-index: 1;
+}
