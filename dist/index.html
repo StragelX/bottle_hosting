@@ -5,30 +5,32 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bottle Hosing</title>
-  <link rel="stylesheet" crossorigin href="/bottle_hosting/dist/assets/index-distM39t.css">
+  <link rel="stylesheet" crossorigin href="./assets/index-CfOv4dte.css">
 </head>
 
 <body>
-  <header class="bg-black w-full py-4">
+  <header class="bg-black w-full">
     <div class="container mx-auto">
-      <div class="flex justify-end items-center lg:gap-7 font-black text-white">
-        <a href="" class="hover:underline" target="_blank">About us</a>
-        <a href="" class="hover:underline" target="_blank">Product</a>
-        <a href="" class="hover:underline" target="_blank">Price</a>
-        <a href="" class="hover:underline" target="_blank">Contact</a>
+      <div class="flex justify-between md:justify-end items-center gap-2 md:gap-7 font-black text-white md:px-7 text-xs md:text-base">
+        <a href="https://bottledhosting.com/about_us" class="hover:underline py-4 pl-4 md:pl-0" target="_blank">About us</a>
+        <a href="#read_more" class="hover:underline py-4">Product</a>
+        <a href="#see_yourself" class="hover:underline py-4">Price</a>
+        <a href="https://bottledhosting.com/about_us" class="hover:underline py-4" target="_blank">Contact</a>
+
+        <a href="https://my.bottledhosting.com/index.php?/clientarea/" class="px-4 bg-[#707070] py-4 transition-opacity hover:opacity-80" target="_blank">Login</a>
       </div>
     </div>
   </header>
 
   <section class="container mx-auto">
-    <div class="hero_section bg_blur relative py-12 pl-44">
-      <img src="/bottle_hosting/dist/assets/logo-ClVhht8M.png" alt="logo" class="!absolute z-0 w-32 left-[110px] top-10">
+    <div class="hero_section bg_blur relative py-12 pl-20 md:pl-44 min-h-[520px]">
+      <img src="./assets/logo-BeRH9Bv7.png" alt="logo" class="!absolute z-0 w-32 left-6 md:left-[110px] top-10">
 
-      <h1 class="lg:text-[130px] xl:text-[160px] leading-[1.25] ml-2 mt-4 mb-10">
+      <h1 class="text-5xl lg:text-[130px] xl:text-[160px] leading-[1.25] ml-2 mt-4 mb-10">
         BOTTLED <br> HOSTING
       </h1>
 
-      <div class="bg-[#FFC902] lg:p-10 max-w-[520px]">
+      <div class="bg-[#FFC902] p-6 md:p-10 max-w-[300px] md:max-w-[520px]">
         <p class="mb-5 text-xl lg:text-2xl xl:text-4xl">
           Powerful web hosting. Packaged for simplicity.
         </p>
@@ -38,24 +40,40 @@
         </p>
 
         <div class="flex items-center gap-5">
-          <a href="" class="text-white px-3 py-2 bg-[#CF152B] hover:shadow-xl transition-all">Start now</a>
-          <a href="#read_more" class="text-white px-3 py-2 bg-black hover:shadow-xl transition-all">Read more</a>
+          <a href="http://my.bottledhosting.com/index.php?/cart/bottled-hosting/" target="_blank" class="text-white px-3 py-2 bg-[#CF152B] hover:shadow-xl transition-all">Start now</a>
+          <a href="#see_yourself" class="text-white px-3 py-2 bg-black hover:shadow-xl transition-all">Read more</a>
         </div>
       </div>
     </div>
   </section>
 
   <section class="container mx-auto" id="read_more">
-    <div class="lg:my-20">
-      <h2 class="text-center mb-7 lg:text-4xl xl:text-6xl">WHAT IS BOTTLED HOSTING?</h2>
+    <div class="my-20 py-10 price_section bg_blur relative px-4 lg:px-0">
+      <h2 class="text-center mb-10 text-2xl lg:text-4xl xl:text-6xl">WHAT IS BOTTLED HOSTING?</h2>
 
+      <p class="text-base lg:text-xl max-w-[880px] mx-auto">
+        <b>Bottled Hosting offers powerful web hosting solutions packaged in an easy to use format. Our goal is to make complex technology accessible to everyone.</b>
+
+        <br><br>
+
+        With our services you will enjoy reliable performance, fast loading times and free SSL certificates for optimal security. Including free domain name, easy to manage via user-friendly control panels.
+
+        <br><br>
+
+        Our 24/7 customer service is always ready to support you. At Bottled Hosting we believe that web hosting should be simple and secure.
+      </p>
+    </div>
+  </section>
+
+  <section class="container mx-auto">
+    <div class="my-20">
       <div class="grid lg:grid-cols-3 gap-7">
         <div class="h-full flex flex-col">
           <div class="bg-black py-4">
             <h3 class="text-center lg:text-xl xl:text-3xl text-white">Affordable Hosting Plan</h3>
           </div>
 
-          <div class="bg-[#F8F8F8] py-10 px-7 space-y-2.5 text-base flex-1">
+          <div class="py-10 px-7 space-y-2.5 text-base flex-1 font-normal price_section bg_blur_1 relative">
             <p>Get access to your own space on our fast, reliable and secure servers.</p>
             <p>Pay just €9.95 (inc. VAT) per month for unlimited access and 5GB storage in the cloud. That’s more than enough for a serious WordPress website and your email.</p>
             <p>Easily expandable storage as your website grows, so you never run out of space.</p>
@@ -67,7 +85,7 @@
             <h3 class="text-center lg:text-xl xl:text-3xl text-white">Free Security certificate</h3>
           </div>
 
-          <div class="bg-[#F8F8F8] py-10 px-7 space-y-2.5 text-base flex-1">
+          <div class="py-10 px-7 space-y-2.5 text-base flex-1 font-normal price_section bg_blur_1 relative">
             <p>Secure your website and protect your visitors’ data with a free SSL certificate.</p>
             <p>Build trust with your customers and improve your SEO ranking with this essential security feature.</p>
             <p>SSL certificates are automatically renewed and updated at no extra cost.</p>
@@ -79,7 +97,7 @@
             <h3 class="text-center lg:text-xl xl:text-3xl text-white">Free domain name</h3>
           </div>
 
-          <div class="bg-[#F8F8F8] py-10 px-7 space-y-2.5 text-base flex-1">
+          <div class="py-10 px-7 space-y-2.5 text-base flex-1 font-normal price_section bg_blur_1 relative">
             <p>Get a free domain name of your country (.nl for the Netherlands, .be for Belgium) with your subscription.</p>
             <p>Easily add extra domain names at a low price to strengthen your online presence.</p>
             <p>Manage all your domains centrally from our user-friendly control panel.</p>
@@ -89,23 +107,23 @@
     </div>
   </section>
 
-  <section class="container mx-auto">
-    <div class="py-12 px-8 flex gap-10 mb-20 price_section bg_blur relative">
-      <div class="w-2/5">
-        <div class="bg-black p-5 text-white lg:text-2xl xl:text-4xl mb-5">
+  <section class="container mx-auto" id="see_yourself">
+    <div class="py-12 px-4 xl:px-8 lg:flex gap-10 mb-20 price_section bg_blur relative">
+      <div class="lg:w-2/5">
+        <div class="bg-black p-5 text-white text-2xl xl:text-4xl mb-5 text-center lg:text-left">
           See for yourself with our 3 month free trial.
         </div>
 
-        <p class="lg:text-xl xl:text-3xl mb-5 px-5">
+        <p class="lg:text-xl xl:text-3xl mb-5 px-5 text-center lg:text-left">
           Join our growing community risk free. Get ready for action.
         </p>
 
-        <p class="lg:text-xl xl:text-3xl px-5">
+        <p class="lg:text-xl xl:text-3xl px-5 text-center lg:text-left">
           Now.
         </p>
       </div>
 
-      <div class="w-1/5">
+      <div class="lg:w-1/5">
         <p class="text-[120px] text-center h-[150px]">
           €9<span class="text-[50px] align-super">.95</span>
         </p>
@@ -114,25 +132,25 @@
           Price per month inc. VAT
         </p>
 
-        <button class="py-3 text-center lg:text-2xl xl:text-4xl bg-[#CF152B] w-full text-white mx-auto lg:max-w-[225px] block hover:shadow-lg transition-all">
+        <a href="http://my.bottledhosting.com/index.php?/cart/bottled-hosting/" target="_blank" class="py-3 text-center lg:text-2xl xl:text-4xl bg-[#CF152B] w-full text-white mx-auto max-w-[225px] block hover:shadow-lg transition-all">
           Start now
-        </button>
+        </a>
       </div>
 
-      <div class="w-2/5">
-        <p class="lg:text-2xl	xl:text-3xl mb-5">
+      <div class="lg:w-2/5">
+        <p class="text-center lg:text-left mt-10 lg:mt-0 text-3xl mb-10 lg:mb-5">
           What do you get?
         </p>
 
-        <div class="grid grid-cols-2 gap-5 mb-5 text-base lg:text-xl">
-          <div class="space-y-2.5">
+        <div class="grid md:grid-cols-2 gap-5 mb-5 text-base lg:text-xl">
+          <div class="space-y-2.5  text-center lg:text-left">
             <p>5GB Cloud Storage</p>
             <p>Free domain name</p>
             <p>Free SSL certificate</p>
             <p>Free Cloudflare DNS</p>
           </div>
 
-          <div class="space-y-2.5">
+          <div class="space-y-2.5  text-center lg:text-left">
             <p>Free DDOS protection</p>
             <p>Unlimited data throughput</p>
             <p>DirectAdmin Control Panel</p>
@@ -140,7 +158,7 @@
           </div>
         </div>
 
-        <p class="text-base lg:text-xl">
+        <p class="text-base lg:text-xl text-center lg:text-left mt-10 lg:mt-0">
           Start today and get 3 months for free. <span class="font-normal">
             Price for annual payment. Payment for the subscription is annual and will not begin until three months from now.
           </span>
@@ -150,10 +168,10 @@
   </section>
 
   <section class="container mx-auto">
-    <div class="py-20 bottle_section bg_blur relative lg:pl-[100px] xl:pl-44 lg:pr-10 xl:pr-20 flex">
-      <div class="w-2/5 lg:space-y-10">
+    <div class="py-20 bottle_section bg_blur relative px-4 xl:pl-[100px] 2xl:pl-44 xl:pr-10 2xl:pr-20 md:flex">
+      <div class="md:w-2/5 lg:space-y-10">
         <div>
-          <p class="mb-2 lg:text-xl xl:text-3xl">
+          <p class="mb-8 md:mb-2 text-3xl">
             Reliable performance, stability and security
           </p>
 
@@ -193,34 +211,48 @@
         </div>
       </div>
 
-      <div class="w-1/5 z-1 relative">
-        <img src="/bottle_hosting/dist/assets/logo-ClVhht8M.png" alt="logo">
+      <div class="w-1/5 z-1 relative hidden md:block">
+        <img src="./assets/logo-BeRH9Bv7.png" alt="logo">
       </div>
 
-      <div class="w-2/5 z-0 relative">
-        <p class="lg:text-6xl	xl:text-8xl">
+      <div class="md:w-2/5 z-0 relative mt-10 md:mt-0">
+        <p class="text-2xl lg:text-4xl xl:text-6xl	2xl:text-8xl mb-6">
           WHY BOTTLED HOSTING?
         </p>
+
+        <div class="md:pl-6">
+          <p class="text-xl lg:text-3xl mb-4">
+            At Bottled Hosting, hosting is simple:
+          </p>
+
+          <p class="font-normal text-base lg:text-xl">
+            Hosting, it’s like a bottle in which you place your website and email. We provide the power and network cables, so you’re always connected. Safety is our top priority, which is why we give you a free security certificate.
+
+            <br><br>
+
+            We don’t understand why other hosting providers make it so complicated. With us, it’s really simple: it’s just a bottle. Very simple. Sort of.
+          </p>
+        </div>
       </div>
     </div>
   </section>
 
   <section class="container mx-auto">
-    <div class="lg:my-20">
-      <h2 class="text-center mb-7 lg:text-4xl xl:text-6xl">YES, I WANT BOTTLED HOSTING!</h2>
+    <div class="my-20">
+      <h2 class="text-center mb-20 lg:mb-7 text-2xl lg:text-4xl xl:text-6xl">YES, I WANT BOTTLED HOSTING!</h2>
 
-      <div class="grid lg:grid-cols-3 gap-8 relative z-1">
-        <div class="pl-7"><img src="/bottle_hosting/dist/assets/horizontal_btl_color-D4HX-UGt.png" alt="small_logo" class="w-[170px]"></div>
+      <div class="lg:grid lg:grid-cols-3 gap-8 relative z-1 hidden">
+        <div class="pl-7"><img src="./assets/horizontal_btl_color-D4HX-UGt.png" alt="small_logo" class="w-[170px]"></div>
 
-        <div class="pl-7"><img src="/bottle_hosting/dist/assets/horizontal_btl_b-w-DyTN5g2F.png" alt="small_logo" class="w-[170px]"></div>
+        <div class="pl-7"><img src="./assets/horizontal_btl_b-w-DyTN5g2F.png" alt="small_logo" class="w-[170px]"></div>
 
-        <div class="pl-7"><img src="/bottle_hosting/dist/assets/horizontal_btl_b-w-DyTN5g2F.png" alt="small_logo" class="w-[170px]"></div>
+        <div class="pl-7"><img src="./assets/horizontal_btl_b-w-DyTN5g2F.png" alt="small_logo" class="w-[170px]"></div>
       </div>
 
-      <div class="h-1 bg-[#707070] relative z-0 -mt-3"></div>
+      <div class="h-1 bg-[#707070] relative z-0 -mt-3 hidden lg:block"></div>
 
-      <div class="grid lg:grid-cols-3 gap-8 relative z-1 mt-3 items-stretch">
-        <div class="relative price_section bg_blur pt-10 pb-16 px-10">
+      <div class="grid lg:grid-cols-3 gap-8 relative z-1 mt-3 items-stretch space-y-10">
+        <div class="relative price_section bg_blur pt-10 pb-16 px-4 md:px-10">
           <div class="rounded-full -top-10 !absolute left-[calc(50%_-_24px)] border-[#707070] h-12 w-12 flex justify-center items-center border-4 bg-[#FFC902] text-4xl">
             1
           </div>
@@ -229,11 +261,11 @@
             Choose your domain name
           </p>
 
-          <p class="font-normal mb-10 text-sm lg:text-base">
+          <p class="font-normal mb-10 text-sm lg:text-base text-center lg:text-left">
             Buy or transfer a domain name for free*. If you wish, you can add or transfer more.
           </p>
 
-          <div class="flex w-full">
+          <div class="flex w-full flex-col xl:flex-row">
             <input type="text" class="p-2 bg-white focus:border-none text-base font-semibold" placeholder="Enter domain name">
 
             <a href="" class="py-2 cursor-pointer flex-1 text-center text-base bg-[#CF152B] text-white hover:shadow-lg transition-all" target="_blank">Check availability</a>
@@ -242,8 +274,8 @@
           <p class="mt-2 font-normal text-xs">* on selected domains only</p>
         </div>
 
-        <div class="relative pt-10 pb-16 px-10 bg-[#F8F8F8]">
-          <div class="rounded-full -top-10 absolute left-[calc(50%_-_24px)] border-[#707070] h-12 w-12 flex justify-center items-center border-4 bg-white text-4xl">
+        <div class="relative pt-10 pb-16 px-4 md:px-10 bg_blur_1 price_section">
+          <div class="rounded-full -top-10 !absolute left-[calc(50%_-_24px)] border-[#707070] h-12 w-12 flex justify-center items-center border-4 bg-white text-4xl">
             2
           </div>
 
@@ -251,13 +283,13 @@
             Tell us who you are
           </p>
 
-          <p class="font-normal text-sm lg:text-base">
+          <p class="font-normal text-sm lg:text-base text-center lg:text-left">
             We like to know who our customers are. This makes our service more personal. We are committed to handling your data with care.
           </p>
         </div>
 
-        <div class="relative pt-10 pb-16 px-10 bg-[#F8F8F8]">
-          <div class="rounded-full -top-10 absolute left-[calc(50%_-_24px)] border-[#707070] h-12 w-12 flex justify-center items-center border-4 bg-white text-4xl">
+        <div class="relative pt-10 pb-16 px-4 md:px-10 bg_blur_1 price_section">
+          <div class="rounded-full -top-10 !absolute left-[calc(50%_-_24px)] border-[#707070] h-12 w-12 flex justify-center items-center border-4 bg-white text-4xl">
             3
           </div>
 
@@ -265,7 +297,7 @@
             Pay
           </p>
 
-          <p class="font-normal text-sm lg:text-base">
+          <p class="font-normal text-sm lg:text-base text-center lg:text-left">
             Immediately after payment, we will set up the hosting account for you. You can get started right away.
           </p>
         </div>
@@ -274,8 +306,8 @@
   </section>
 
   <section class="container mx-auto">
-    <div class="lg:my-20 relative bg_blur bottom_hero py-16 pr-8 pl-44 flex gap-24">
-      <div class="max-w-[55%]">
+    <div class="my-20 relative bg_blur price_section py-16 px-4 xl:pr-8 xl:pl-44 md:flex md:gap-10 xl:gap-24">
+      <div class="md:max-w-[55%]">
         <h4 class="mb-5 text-xl lg:text-2xl	xl:text-4xl">
           At Bottled Hosting, we strive to provide high-quality and affordable web hosting to businesses of all sizes.
         </h4>
@@ -289,7 +321,7 @@
         </p>
       </div>
 
-      <div class="flex-1">
+      <div class="flex-1 mt-10 md:mt-0">
         <h4 class="mb-5 text-xl lg:text-2xl	xl:text-4xl">
           Help needed?
         </h4>
@@ -313,25 +345,25 @@
 
   <footer class="bg-black py-20 text-white">
     <div class="container mx-auto">
-      <div class="flex justify-between relative mb-20">
-        <div class="w-3/5">
+      <div class="grid md:grid-cols-2 gap-y-16 xl:gap-y-0 xl:flex justify-between relative mb-20 px-4 xl:px-0">
+        <div class="xl:w-2/6">
           <p class="mb-5 text-base">
             HOSTING SERVICES
           </p>
 
-          <div class="flex gap-36 text-base font-normal">
+          <div class="md:flex gap-20 text-base font-normal">
             <div class="flex flex-col gap-2.5">
-              <a href="" target="_blank" class="hover:underline">Shared Hosting</a>
-              <a href="" target="_blank" class="hover:underline">Cloud Hosting</a>
-              <a href="" target="_blank" class="hover:underline">WordPress Hosting</a>
-              <a href="" target="_blank" class="hover:underline">Managed Services</a>
+              <a href="https://my.bottledhosting.com/index.php?/cart/bottled-hosting/" target="_blank" class="hover:underline">Shared Hosting</a>
+              <a href="https://my.bottledhosting.com/index.php?/cart/bottled-hosting/" target="_blank" class="hover:underline">Cloud Hosting</a>
+              <a href="https://my.bottledhosting.com/index.php?/cart/bottled-hosting/" target="_blank" class="hover:underline">WordPress Hosting</a>
+              <a href="https://my.bottledhosting.com/index.php?/cart/bottled-hosting/" target="_blank" class="hover:underline">Managed Services</a>
             </div>
 
             <div class="flex flex-col gap-2.5">
               <a href="" target="_blank" class="hover:underline">Domain Name Registration</a>
-              <a href="" target="_blank" class="hover:underline">SSL Certificates</a>
-              <a href="" target="_blank" class="hover:underline">Backup and Recovery Services</a>
-              <a href="" target="_blank" class="hover:underline">Security Services</a>
+              <a href="https://bottledhosting.com/ssl-certificates" target="_blank" class="hover:underline">SSL Certificates</a>
+              <a href="https://bottledhosting.com/security-services" target="_blank" class="hover:underline">Backup and Recovery Services</a>
+              <a href="https://bottledhosting.com/security-services" target="_blank" class="hover:underline">Security Services</a>
             </div>
           </div>
 
@@ -342,29 +374,44 @@
           </a>
         </div>
 
-        <div class="w-1/5">
+        <div class="xl:w-1/6">
           <p class="mb-5 text-base">
             SUPPORT
           </p>
 
           <div class="flex flex-col gap-2.5 text-base font-normal">
-            <a href="" target="_blank" class="hover:underline">Help Center</a>
-            <a href="" target="_blank" class="hover:underline">Knowledge Base</a>
-            <a href="" target="_blank" class="hover:underline">FAQ</a>
-            <a href="" target="_blank" class="hover:underline">Service Status</a>
-            <a href="" target="_blank" class="hover:underline font-bold">Submit a support ticket</a>
+            <a href="https://my.bottledhosting.com/portal" target="_blank" class="hover:underline">Help Center</a>
+            <a href="https://my.bottledhosting.com/index.php?/knowledgebase" target="_blank" class="hover:underline">Knowledge Base</a>
+            <a href="https://my.bottledhosting.com/index.php?/knowledgebase" target="_blank" class="hover:underline">FAQ</a>
+            <a href="https://my.bottledhosting.com/status" target="_blank" class="hover:underline">Service Status</a>
+            <a href="https://a100.vianubis.net/index.php?/tickets/" target="_blank" class="hover:underline font-bold">Submit a support ticket</a>
           </div>
         </div>
 
-        <div class="w-1/5">
+        <div class="xl:w-1/6">
           <p class="mb-5 text-base">
             COMPANY
           </p>
 
           <div class="flex flex-col gap-2.5 text-base font-normal">
-            <a href="" target="_blank" class="hover:underline">About Bottled Hosting</a>
-            <a href="" target="_blank" class="hover:underline">Contact Us</a>
-            <a href="" target="_blank" class="hover:underline">Sustainability</a>
+            <a href="https://bottledhosting.com/about_us" target="_blank" class="hover:underline">About Bottled Hosting</a>
+            <a href="https://bottledhosting.com/about_us" target="_blank" class="hover:underline">Contact Us</a>
+          </div>
+        </div>
+
+        <div class="xl:w-2/6">
+          <p class="text-xl md:text-2xl lg:text-4xl mb-2.5">
+            Not convinced yet?
+          </p>
+
+          <p class="font-normal text-base lg:text-xl mb-5">
+            Send a message through chat. Or subscribe to our newsletter. We will not spam you, promised.
+          </p>
+
+          <div class="flex flex-col md:flex-row">
+            <input type="text" class="p-2 bg-white focus:border-none text-base font-semibold" placeholder="Email address">
+
+            <a href="" class="w-full md:w-36 flex-none py-2 cursor-pointer text-center text-base bg-[#CF152B] text-white hover:shadow-lg transition-all" target="_blank">Subscribe</a>
           </div>
         </div>
 
@@ -377,14 +424,14 @@
     <div class="bg-[#C7C7C7] h-[1px]"></div>
 
     <div class="container mx-auto my-10">
-      <div class="flex justify-between">
+      <div class="grid md:grid-cols-2 gap-y-8 md:gap-y-16 gap-x-8 xl:gap-x-0 xl:gap-y-0 xl:flex justify-between px-4 xl:px-0">
         <div>
           <p class="mb-5 text-base">
             QUESTIONS?
           </p>
 
           <p class="font-normal">
-            Look at our <a href="" class="underline hover:no-underline">Frequently Asked Questions</a> or <a href="" class="underline hover:no-underline">Contact us</a>
+            Look at our <a href="https://my.bottledhosting.com/index.php?/knowledgebase" target="_blank" class="underline hover:no-underline">Frequently Asked Questions</a> or <a href="https://bottledhosting.com/about_us" target="_blank" class="underline hover:no-underline">Contact us</a>
           </p>
         </div>
 
@@ -394,7 +441,7 @@
           </p>
 
           <p class="font-normal">
-            Visit our <a href="" class="underline hover:no-underline">Service Status page</a>
+            Visit our <a href="https://my.bottledhosting.com/status" target="_blank" class="underline hover:no-underline">Service Status page</a>
           </p>
         </div>
 
@@ -404,16 +451,16 @@
           </p>
         </div>
 
-        <img src="/bottle_hosting/dist/assets/green_web-DLvLR-eE.png" alt="green web logo" class="max-w-44">
+        <img src="./assets/green_web-DLvLR-eE.png" alt="green web logo" class="max-w-44">
       </div>
     </div>
 
     <div class="bg-[#C7C7C7] h-[1px]"></div>
 
     <div class="container mx-auto mt-10">
-      <div class="flex items-center justify-between">
-        <div class="relative">
-          <img src="/bottle_hosting/dist/assets/logo-ClVhht8M.png" alt="logo" class="h-12 relative z-0">
+      <div class="flex items-center justify-between px-4 xl:px-0">
+        <div class="relative hidden xl:block">
+          <img src="./assets/logo-BeRH9Bv7.png" alt="logo" class="h-12 relative z-0">
 
           <p class="absolute text-xl top-1 left-2.5 leading-[1.2]">
             BOTTLED <br> HOSTING
@@ -424,14 +471,20 @@
           </p>
         </div>
 
-        <div class="flex items-baseline lg:gap-1 xl:gap-2 text-[#999] font-normal">
-          <a href="" class="text-[#999] hover:underline" target="_blank">Privacy statement</a>|
-          <a href="" class="text-[#999] hover:underline" target="_blank">User agreement</a>|
-          <a href="" class="text-[#999] hover:underline" target="_blank">Disclaimer</a>|
-          <a href="" class="text-[#999] hover:underline" target="_blank">Fair use policy</a>|
-          <a href="" class="text-[#999] hover:underline" target="_blank">Right of withdrawal</a>|
-          <a href="" class="text-[#999] hover:underline" target="_blank">Terms and conditions</a>|
-          <a href="" class="text-[#999] hover:underline" target="_blank">Responsible Disclosure</a>
+        <div class="lg:flex items-baseline lg:gap-1 xl:gap-2 text-[#999] font-normal grid md:grid-cols-2 gap-8">
+          <a href="https://bottledhosting.com/privacy-statement" class="text-[#999] hover:underline" target="_blank">Privacy statement</a>
+          <span class="hidden lg:block">|</span>
+          <a href="https://bottledhosting.com/user-agreement" class="text-[#999] hover:underline" target="_blank">User agreement</a>
+          <span class="hidden lg:block">|</span>
+          <a href="https://bottledhosting.com/disclaimer" class="text-[#999] hover:underline" target="_blank">Disclaimer</a>
+          <span class="hidden lg:block">|</span>
+          <a href="https://bottledhosting.com/fair-use-policy" class="text-[#999] hover:underline" target="_blank">Fair use policy</a>
+          <span class="hidden lg:block">|</span>
+          <a href="https://bottledhosting.com/right-of-withdrawal" class="text-[#999] hover:underline" target="_blank">Right of withdrawal</a>
+          <span class="hidden lg:block">|</span>
+          <a href="https://bottledhosting.com/term-and-conditions" class="text-[#999] hover:underline" target="_blank">Terms and conditions</a>
+          <span class="hidden lg:block">|</span>
+          <a href="https://bottledhosting.com/responsible-disclosure" class="text-[#999] hover:underline" target="_blank">Responsible Disclosure</a>
         </div>
       </div>
     </div>

@@ -37,10 +37,6 @@ body {
   background:url(./img/bottle_bg.jpg) no-repeat center center / cover;
 }
 
-.bottom_hero {
-  background:url(/img/bottom_hero_bg.jpg) no-repeat right 110% center / auto 90%;
-}
-
 .bg_blur:after {
   content: "";
   position: absolute; 
@@ -53,6 +49,22 @@ body {
 }
 
 .bg_blur *{
+  position: relative;
+  z-index: 1;
+}
+
+.bg_blur_1:after {
+  content: "";
+  position: absolute; 
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #F8F8F8BF;
+  z-index: 0;
+}
+
+.bg_blur_1 *{
   position: relative;
   z-index: 1;
 }
