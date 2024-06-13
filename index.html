@@ -41,7 +41,7 @@
 
         <div class="flex items-center gap-5">
           <a href="http://my.bottledhosting.com/index.php?/cart/bottled-hosting/" target="_blank" class="text-white px-3 py-2 bg-[#CF152B] hover:shadow-xl transition-all">Start now</a>
-          <a href="#see_yourself" class="text-white px-3 py-2 bg-black hover:shadow-xl transition-all">Read more</a>
+          <a href="#read_more" class="text-white px-3 py-2 bg-black hover:shadow-xl transition-all">Read more</a>
         </div>
       </div>
     </div>
@@ -265,11 +265,15 @@
             Buy or transfer a domain name for free*. If you wish, you can add or transfer more.
           </p>
 
-          <div class="flex w-full flex-col xl:flex-row">
-            <input type="text" class="p-2 bg-white focus:border-none text-base font-semibold" placeholder="Enter domain name">
+          <form method="post" action="https://a100.vianubis.net/?cmd=checkdomain" target="_blank" class="flex w-full flex-col xl:flex-row">
+            <input type="hidden" value="checkdomain" name="action">
+            <input type="hidden" value="1" name="singlecheck">
+            <input type="hidden" value="1" name="register">
+            <input type="hidden" value="32" name="domain_cat">
+            <input value="" name="domain" class="p-2 bg-white focus:border-none text-base font-semibold" placeholder="Enter domain name">
 
-            <a href="" class="py-2 cursor-pointer flex-1 text-center text-base bg-[#CF152B] text-white hover:shadow-lg transition-all" target="_blank">Check availability</a>
-          </div>
+            <input type="submit" value="Check Availability" class="py-2 cursor-pointer flex-1 text-center text-base bg-[#CF152B] text-white hover:shadow-lg transition-all">
+          </form>
 
           <p class="mt-2 font-normal text-xs">* on selected domains only</p>
         </div>
